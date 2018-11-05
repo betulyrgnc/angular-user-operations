@@ -1,0 +1,23 @@
+.card-body {
+  padding: 15;
+  h5 {
+  margin: auto;
+  text-align: center;
+  }
+  button {
+    position: relative;
+    margin-left: 38%;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+img {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20;
+  height: 250px;
+}
