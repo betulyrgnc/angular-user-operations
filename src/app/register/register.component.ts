@@ -3,6 +3,7 @@ import {ApiService} from '../api.service';
 import {CustomerService} from '../customer.service';
 import {Router} from '@angular/router';
 
+
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',

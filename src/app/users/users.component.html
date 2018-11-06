@@ -6,8 +6,8 @@
     <div class="card-body">
       <h5 class="card-title">User List</h5>
       <button type="submit" class="btn btn-primary" (click)="getUsers()">list users</button>
-      <div *ngFor="let user of users">
-          {{ user | json }}
+      <div *ngFor="let first_name of users">
+          {{ first_name | json }}
       </div>
     </div>
   </div>

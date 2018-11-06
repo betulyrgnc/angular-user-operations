@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { AlertModule, ButtonsModule } from 'ngx-bootstrap';
 
 import { LoginComponent } from './login/login.component';
-import {DashboardComponent} from './dashboard/dashboard.component';
 import { UsersComponent } from './users/users.component';
 import { RegisterComponent } from './register/register.component';
 
@@ -19,7 +18,6 @@ import {NeedAuthGuard} from './auth.guard';
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent,
     UsersComponent,
     RegisterComponent
   ],

@@ -4,6 +4,11 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {LoginResultModel} from './model/LoginResultModel';
 
+import {Observer} from 'rxjs/Observer';
+import 'rxjs/add/operator/share';
+import 'rxjs/add/operator/map';
+import 'rxjs/Rx';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -20,8 +25,10 @@ export class ApiService {
     });
   }
 
+
   users(){
     return this.http.get('https://reqres.in/api/users?page=2')
+
   }
 
   register(email: string, password: string): Observable<LoginResultModel>{
